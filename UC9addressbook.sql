@@ -1,0 +1,11 @@
+select * from AddressBook;
+alter table AddressBook add Family varchar (50), add Friends varchar (50), add Profession varchar (50);
+update AddressBook set Family = 'YoungerSon' where firstName = 'Anand';
+update AddressBook set Friends = 'Arvind' where lastName = 'Gurjar';
+update AddressBook set profession = 'Doctor' where lastName = 'Gurjar';
+update AddressBook set Family = 'Brother' where firstName = 'Arvind';
+update AddressBook set Friends = 'Rahul' where lastName = 'Sharma';
+update AddressBook set profession = 'Engineer' where firstName = 'Arvind';
+update AddressBook set Family = 'Father' where firstName = 'Ayush';
+update AddressBook set Friends = 'Rahul' where lastName = 'Sharma';
+update AddressBook set profession = 'Coder' where firstName = 'Ayush';
